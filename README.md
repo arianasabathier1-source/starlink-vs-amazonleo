@@ -11,21 +11,21 @@ I grew up hearing about fiber optics and networking from my dad, and space + sat
 
 ## Dashboard
 
-![Full Dashboard](tableau/full_dashboard.png)
+![Full Dashboard](full_dashboard.png)
 
 ### Individual Views
 
 **Deployment Velocity (Normalized)**
-![Deployment Velocity](tableau/deployment_velocity.png)
+![Deployment Velocity](deployment_velocity_normalized.png)
 
 **Raw Deployment Gap**
-![Raw Deployment Gap](tableau/raw_deployment_gap.png)
+![Raw Deployment Gap](raw_deployment_gap.png)
 
 **Pricing & Commercial Readiness**
-![Pricing Readiness](tableau/pricing_readiness.png)
+![Pricing Readiness](pricing_readiness.png)
 
 **Consumer Decision Factors**
-![Consumer Decision Factors](tableau/consumer_decision_factors.png)
+![Consumer Decision Factors](consumer_decision_factors.png)
 
 ## What's in this repo
 
