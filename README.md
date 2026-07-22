@@ -3,7 +3,7 @@
 A data-driven competitive analysis of SpaceX's Starlink and Amazon's Leo
 (used-to-be Project Kuiper) satellite internet constellations. 
 
-**Data current as of: July 20, 2026**
+**Data current as of: July 21, 2026**
 
 ## Why this project
 
