@@ -1,0 +1,20 @@
+metric,starlink,amazon_leo,notes
+parent_company,SpaceX,Amazon,Starlink is a division of SpaceX; Amazon Leo (formerly Project Kuiper) is a direct Amazon subsidiary business unit
+program_announced,2015,2019,
+fcc_license_granted,2018-03,2020-07-30,
+first_satellites_launched,2019-05-24,2023-10-06,Amazon's first launch was prototypes only, not production hardware
+production_deployment_start,2019-05,2025-04-28,Amazon began true production deployment ~6 years after Starlink
+consumer_beta_start,2020-10,2026 (targeted; not yet launched as of Jul 2026),Amazon has enterprise beta customers (JetBlue, Delta, AT&T) but no public consumer service yet
+years_operating_as_of_jul_2026,7.2,0.75 (production only),Massive first-mover time advantage for Starlink
+satellites_in_orbit_jul_2026,10844,394,Starlink has ~27x more satellites currently in orbit
+planned_constellation_size,42000 (authorized in phases; ~12000 currently licensed),7727 (3236 Gen1 + 4500 Gen2 approved Jan 2026),
+pct_of_planned_constellation_deployed,~90% of current phase,~12% of Gen1 target,
+global_subscribers,10000000+ (crossed early 2026),0 (pre-commercial),Starlink has a decade-long subscriber base head start
+current_residential_pricing_usd_month,55-130,not yet announced,
+hardware_cost_usd,249-349,not yet announced (Leo Pro terminal estimated under 400),
+orbital_shells,several between 340-570km,3 shells at 590/610/630km,
+inter_satellite_links,laser (V2/V2 Mini),optical inter-satellite links (OISL) up to 100 Gbps,Both use laser mesh networking; comparable tech generation
+key_enterprise_customers,US military/DoD, T-Mobile (direct-to-cell),"JetBlue, Delta, AT&T, Vodafone",
+regulatory_status,largely on pace with FCC deployment milestones,requested deadline extension; behind July 2026 FCC 50pct milestone,Material regulatory risk for Amazon
+notable_recent_move,preparing for potential large IPO,acquired Globalstar (Apr 2026) for spectrum and ground infrastructure,
+brand_recognition,very high (household name; Elon Musk association),low-moderate (Amazon brand halo but Leo/Kuiper name still unfamiliar to most consumers),Core input to the consumer choice model below

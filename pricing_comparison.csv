@@ -1,0 +1,10 @@
+company,plan_name,monthly_price_usd,download_speed_mbps,hardware_cost_usd,hardware_model,notes
+Starlink,Residential 100,55,100,349,Standard Kit,Entry tier; raised from $50 in June 2026 price increase
+Starlink,Residential 200,85,200,349,Standard Kit,
+Starlink,Residential Max,130,300-400,349,Standard Kit,Highest consumer priority tier; raised from $120
+Starlink,Roam 50GB,55,up to 100,249,Starlink Mini,Portable/RV use
+Starlink,Standby Mode,10,minimal,0,uses existing hardware,Keeps account active for seasonal homes; doubled from $5 in 2026
+Starlink,Equipment rental,10,n/a,0,n/a,Monthly rental alternative to $349 purchase
+Amazon Leo,Not yet announced,,,,Leo Nano (compact),Three terminal tiers planned: Nano/Pro/Ultra
+Amazon Leo,Not yet announced,,,under 400 (est.),Leo Pro (standard residential),Estimated only; industry analysts expect pricing near Starlink's tiers
+Amazon Leo,Not yet announced,,1000 (enterprise),,Leo Ultra (gigabit enterprise),Enterprise/business tier, currently in preview with select customers

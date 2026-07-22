@@ -1,0 +1,20 @@
+date,company,satellites_in_orbit,satellites_operational,cumulative_launched,milestone_note
+2019-05-24,Starlink,60,0,60,First production batch launched
+2020-10-01,Starlink,700,600,895,"Public beta begins (""Better Than Nothing Beta"")"
+2021-12-31,Starlink,1900,1700,1944,Beta ends
+2022-12-31,Starlink,3300,3100,3500,V1.5 satellites with laser inter-satellite links rolling out
+2023-10-06,Amazon Leo,2,2,2,Prototype satellites KuiperSat-1 and KuiperSat-2 launched (Atlas V)
+2023-12-31,Starlink,5300,5050,5500,V2 Mini satellites launching on Falcon 9
+2024-12-31,Starlink,6900,6600,7100,Direct-to-cell service begins with T-Mobile
+2025-04-28,Amazon Leo,27,27,27,First production launch (LA-01 / KA-01)
+2025-06-23,Amazon Leo,54,54,54,Second production launch (27 more satellites)
+2025-07-16,Amazon Leo,78,78,78,Third production launch (Falcon 9 debut for Kuiper)
+2025-12-31,Starlink,9500,9350,10500,Surpasses 8M global subscribers
+2026-01-15,Amazon Leo,180,180,182,FCC approves Gen2 expansion of 4500 additional satellites
+2026-02-15,Amazon Leo,212,210,214,Rebrand from Project Kuiper to Amazon Leo completed
+2026-03-01,Starlink,10049,10039,11529,Crosses 10000 in-orbit milestone
+2026-04-27,Amazon Leo,231,225,235,LA-06 mission; still well behind FCC pace of 1618 required by 2026-07-30
+2026-05-31,Amazon Leo,283,270,295,Third-largest satellite constellation in orbit (behind Starlink and OneWeb)
+2026-06-01,Starlink,10413,10397,11800,McDowell tracking data
+2026-07-18,Amazon Leo,394,380,410,Most recent tracked estimate; deadline extension requested from FCC
+2026-07-19,Starlink,10844,10828,12472,Most recent tracked count; ~59% of all active satellites in orbit

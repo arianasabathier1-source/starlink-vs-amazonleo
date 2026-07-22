@@ -1,0 +1,20 @@
+company,date,satellites_in_orbit,days_since_production_start
+Amazon Leo,2023-10-06,2,-570
+Amazon Leo,2025-04-28,27,0
+Amazon Leo,2025-06-23,54,56
+Amazon Leo,2025-07-16,78,79
+Amazon Leo,2026-01-15,180,262
+Amazon Leo,2026-02-15,212,293
+Amazon Leo,2026-04-27,231,364
+Amazon Leo,2026-05-31,283,398
+Amazon Leo,2026-07-18,394,446
+Starlink,2019-05-24,60,0
+Starlink,2020-10-01,700,496
+Starlink,2021-12-31,1900,952
+Starlink,2022-12-31,3300,1317
+Starlink,2023-12-31,5300,1682
+Starlink,2024-12-31,6900,2048
+Starlink,2025-12-31,9500,2413
+Starlink,2026-03-01,10049,2473
+Starlink,2026-06-01,10413,2565
+Starlink,2026-07-19,10844,2613

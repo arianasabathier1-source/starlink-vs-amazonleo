@@ -1,0 +1,7 @@
+company,plan_name,monthly_price_usd,download_speed_mbps,hardware_cost_usd
+Starlink,Standby Mode,10,minimal,0
+Starlink,Equipment rental,10,n/a,0
+Starlink,Residential Max,130,300-400,349
+Starlink,Residential 100,55,100,349
+Starlink,Roam 50GB,55,up to 100,249
+Starlink,Residential 200,85,200,349
