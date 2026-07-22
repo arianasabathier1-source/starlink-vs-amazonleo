@@ -1,20 +1,13 @@
 # Starlink vs. Amazon Leo: A Competitive Analysis
 
 A data-driven competitive analysis of SpaceX's Starlink and Amazon's Leo
-(formerly Project Kuiper) satellite internet constellations — built as a full
-pipeline from raw research → SQL database → Python analysis → Tableau
-dashboard.
+(used-to-be Project Kuiper) satellite internet constellations. 
 
 **Data current as of: July 20, 2026**
 
 ## Why this project
 
-Two of the world's most resourced companies are racing to build competing
-LEO satellite internet networks. Starlink has a 7-year head start and 10M+
-subscribers. Amazon Leo has Amazon's balance sheet, retail distribution, and
-a regulatory deadline it's already going to miss. This project treats the
-matchup the way a strategy/BD team would: what are the actual numbers, and
-what would each company be thinking about the other right now?
+I grew up hearing about fiber optics and networking from my dad, and space + satellites from my mom's side, so when Starlink and Amazon Leo both started making headlines this year, I couldn't help but dig in. Two of the most resourced companies on the planet are racing to build competing satellite internet networks, and the numbers alone are wild: Starlink has a 7-year head start and over 10 million subscribers, while Amazon Leo is leaning on Amazon's balance sheet, retail reach, and a regulatory deadline it's already about to miss. I wanted to actually run the numbers myself instead of just reading takes on it --- figure out what's true + exciting, and what each company is probably thinking about the other one right now (from a superficial standpoint).
 
 ## Dashboard
 
