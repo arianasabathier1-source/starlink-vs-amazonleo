@@ -15,8 +15,8 @@ I grew up hearing about fiber optics and networking from my dad, and space + sat
 
 ### Individual Views
 
-**Deployment Velocity (Normalized)**
-![Deployment Velocity](deployment_velocity_normalized.png)
+**Deployment Velocity **
+![Deployment Velocity](deployment_velocity.png)
 
 **Raw Deployment Gap**
 ![Raw Deployment Gap](raw_deployment_gap.png)
