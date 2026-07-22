@@ -82,15 +82,6 @@ Pulled from public satellite trackers (Jonathan McDowell's catalog, KeepTrack, O
 - `charts/deployment_velocity_normalized.png` — apples-to-apples, both companies measured from their own day-zero
 - `charts/starlink_pricing.png` — current published pricing tiers
 
-## Data sources & caveats
-
-All figures pulled from public trackers (Jonathan McDowell's satellite
-catalog, KeepTrack, Orbital Radar), FCC filings, Amazon and SpaceX public
-statements, and industry press (Light Reading, SatelliteInternet.com,
-CableTV.com) etc, as of July 2026. 3rd-party trackers disagree by tens to
-hundreds of satellites at any given moment due to launch-to-catalog lag SO
-treat exact counts as directionally accurate rather than precise to the
-unit, especially for Amazon Leo, where deployment is changing weekly!
 
 ## Pushing this to GitHub
 
