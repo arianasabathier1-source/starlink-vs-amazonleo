@@ -83,13 +83,3 @@ Pulled from public satellite trackers (Jonathan McDowell's catalog, KeepTrack, O
 - `charts/starlink_pricing.png` — current published pricing tiers
 
 
-## Pushing this to GitHub
-
-This folder is already a git repo (see below). To push it to your own
-GitHub account:
-
-```bash
-git remote add origin https://github.com/<your-username>/starlink-vs-amazonleo.git
-git branch -M main
-git push -u origin main
-```
