@@ -54,46 +54,34 @@ python3 analysis/run_analysis.py
 This rebuilds `data/warehouse.db` (SQLite), regenerates the charts in
 `charts/`, and re-exports the Tableau-ready CSV in `tableau/`.
 
-## Quickstart (real Postgres server, for a live Tableau connection)
+## Quickstart
 
-1. Install [Postgres.app](https://postgresapp.com) and click "Initialize" to start a server.
-2. Create the database and load the data:
-```bash
-createdb starlink_analysis
-psql -d starlink_analysis -f sql/postgres_schema.sql
-psql -d starlink_analysis -f sql/postgres_load.sql
-```
-3. In Tableau Desktop: **Connect → PostgreSQL** → Server: `localhost`, Port: `5432`,
-   Database: `starlink_analysis`, your Mac username, no password (Postgres.app's
-   default is trust-based local auth). All four tables will show up ready to drag
-   onto the canvas — no CSV import needed, and any time you re-run
-   `postgres_load.sql` with fresh data, hitting "Refresh" in Tableau pulls it live.
+Want to rebuild everything from scratch? Here's how:
 
-## Headline numbers (July 2026)
+pip install -r requirements.txt
+python3 run_analysis.py
+
+That rebuilds the SQLite database, regenerates all the charts, and re-exports a clean CSV ready for Tableau.
+
+## The Numbers (July 2026)
 
 | Metric | Starlink | Amazon Leo |
 |---|---|---|
 | Satellites in orbit | ~10,844 | ~394 |
 | First production launch | May 24, 2019 | April 28, 2025 |
-| Consumer service live? | Yes (since Oct 2020) | No — enterprise beta only |
-| Global subscribers | 10,000,000+ | 0 (pre-commercial) |
-| Published consumer pricing | $55–$130/mo | Not yet announced |
-| Planned constellation | ~12,000 (current licensed phase) | 7,727 (3,236 Gen1 + 4,500 Gen2) |
-| Regulatory status | On pace | Requested FCC deadline extension |
+| Consumer service live? | Yes, since Oct 2020 | Not yet, enterprise only |
+| Global subscribers | 10,000,000+ | 0, pre-commercial |
+| Published pricing | $55–$130/mo | Not announced yet |
+| Planned constellation size | ~12,000 | 7,727 |
+| Regulatory status | On pace | Asked FCC for more time |
 
-## The core strategic question
+## So Why Would Anyone Pick the Company Nobody's Heard Of?
 
-**Why would a consumer choose a satellite internet provider they've never
-heard of over one with a decade of track record and 10 million existing
-customers?**
+That's the real question this whole project is trying to answer. Amazon Leo isn't going to win by out-launching SpaceX, that race is already lost for now. Its real shot is everything else Amazon has that Starlink doesn't: Prime bundling, retail shelf space, and a growing stack of enterprise deals (JetBlue, Delta, AT&T) that build trust before a single consumer ever signs up. Full breakdown in `insights.md`.
 
-See [`analysis/insights.md`](analysis/insights.md) for the full breakdown, but
-the short version: Amazon Leo's near-term advantage isn't going to come from
-out-launching SpaceX. It'll come from distribution (Prime bundling, Amazon
-retail placement), enterprise credibility spillover (JetBlue, Delta, AT&T
-deals landing before the consumer product does), and solving Starlink's
-known pain points (congestion pricing, customer service) rather than
-competing head-on with satellite count.
+## Where the Numbers Came From
+
+Pulled from public satellite trackers (Jonathan McDowell's catalog, KeepTrack, Orbital Radar), FCC filings, and reporting from Light Reading, SatelliteInternet.com, and CableTV.com, all as of July 2026. Heads up: different trackers disagree by dozens to hundreds of satellites depending on when they last updated, especially for Amazon Leo since their numbers change almost weekly. Treat these as close estimates, not exact-to-the-satellite counts.
 
 ## Charts
 
@@ -106,10 +94,10 @@ competing head-on with satellite count.
 All figures pulled from public trackers (Jonathan McDowell's satellite
 catalog, KeepTrack, Orbital Radar), FCC filings, Amazon and SpaceX public
 statements, and industry press (Light Reading, SatelliteInternet.com,
-CableTV.com) as of July 2026. Third-party trackers disagree by tens to
-hundreds of satellites at any given moment due to launch-to-catalog lag —
+CableTV.com) etc, as of July 2026. 3rd-party trackers disagree by tens to
+hundreds of satellites at any given moment due to launch-to-catalog lag SO
 treat exact counts as directionally accurate rather than precise to the
-unit, especially for Amazon Leo, where deployment is changing weekly.
+unit, especially for Amazon Leo, where deployment is changing weekly!
 
 ## Pushing this to GitHub
 
