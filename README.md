@@ -54,14 +54,7 @@ python3 analysis/run_analysis.py
 This rebuilds `data/warehouse.db` (SQLite), regenerates the charts in
 `charts/`, and re-exports the Tableau-ready CSV in `tableau/`.
 
-## Quickstart
 
-Want to rebuild everything from scratch? Here's how:
-
-pip install -r requirements.txt
-python3 run_analysis.py
-
-That rebuilds the SQLite database, regenerates all the charts, and re-exports a clean CSV ready for Tableau.
 
 ## The Numbers (July 2026)
 
